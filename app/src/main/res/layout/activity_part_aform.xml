@@ -1,0 +1,101 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:background="#ffffff">
+
+    <!-- Statement -->
+    <TextView
+        android:id="@+id/parta_form_header_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Header"
+        android:padding="20dip"
+        />
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/parta_form_state_subject1"
+            android:text="Row 2 column 1"
+            android:background="#dcdcdc"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/parta_form_state_auxiliary1"
+            android:text="Row 2 column 2"
+            android:background="#d3d3d3"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/parta_form_state_verb1"
+            android:text="Row 2 column 3"
+            android:background="#cac9c9"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/parta_form_state_subject2"
+            android:text="Row 2 column 1"
+            android:background="#dcdcdc"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/parta_form_state_auxiliary2"
+            android:text="Row 2 column 2"
+            android:background="#d3d3d3"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/parta_form_state_verb2"
+            android:text="Row 2 column 3"
+            android:background="#cac9c9"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+
+    <!-- Row 3 with 2 columns -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:text="Row 3 column 1"
+            android:layout_weight="1"
+            android:background="#b0b0b0"
+            android:textColor="#000000"
+            android:padding="18dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:text="Row 3 column 2"
+            android:layout_weight="1"
+            android:background="#a09f9f"
+            android:textColor="#000000"
+            android:padding="18dip"
+            android:gravity="center"/>
+    </TableRow>
+
+</TableLayout>

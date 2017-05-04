@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMain">#303030</color>
+    <color name="bgColorCate">#FFF</color>
+    <color name="list_item_title">#fff</color>
+    <color name="bgColorSlideMenu">#FFF</color>
+    <color name="bgColorSlideMenuPressed">#c5c4c4</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="divider">#DDD</color>
+    <color name="colorCate">#303030</color>
+</resources>
